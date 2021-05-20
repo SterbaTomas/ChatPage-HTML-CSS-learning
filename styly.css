@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-color: #278A01;
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+header img {
+    width:50px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
+header h1 {
+    color: white;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-top: 10;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 50px;
+    float: left;
+    text-shadow: 1px 1px 2px #fbc200, -1px -1px 2px #fbc200, -1px 1px 2px #fbc200, 1px -1px 2px #fbc200;
+    }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+/* MAIN------------------------*/    
+    
+#logo img {
+        display: block;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+main h2 {
+    text-align: center;
+    color: #fbc200;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px #278A01, -1px -1px 1px #278A01, -1px 1px 1px #278A01, 1px -1px 1px #278A01;
+}
+
+main p {
+    background-color: #278A01;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+/* Form */
+
+table {
+    margin: 0 auto;
+}
+
+form input {
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+}
+input[type=submit] {
+    background-color: #278A01;
+    color: white;
+    font-size: 20px;
+    
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #278A01;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #fbc200, -1px -1px 4px #fbc200, -1px 1px 4px #fbc200, 1px -1px 4px #fbc200;
+}
+input[type=reset] {
+    width: 100px;
+}
+input[type=reset]:hover {
+    width: 100px;
+    font-weight: bold;
+}
+
+/* FOOTER------------------------*/
+
+footer p {
+    background-color: #278A01;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    border-radius: 5px;
+    padding: 5px 0px 5px 15px;
+}
